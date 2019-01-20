@@ -1,22 +1,29 @@
-.box-layout {
-  align-items: center;
-  background: url("/images/bg.jpg");
-  background-size: cover;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  width: 100vw;
+.section {
+  overflow: hidden;
+  position: relative;
+  padding: 7.5rem 1.6rem;
 }
 
-.box-layout__box {
-  background: fade-out(white, .15);
-  border-radius: 3px;
-  padding: $l-size $m-size;
+.section--basic {
+  background-color: white;
+}
+
+.section--light-grey {
+  background-color: $off-white;
+}
+
+.section__title {
   text-align: center;
-  width: 25rem;
+  font-weight: 500;
 }
 
-.box-layout__title {
-  margin: 0 0 $m-size 0;
-  line-height: 1;
+.section__subtitle {
+  max-width: 60rem;
+  margin: 0 auto 7.5rem;
+  text-align: center;
+}
+
+.section__content {
+  max-width: 112rem;
+  margin: 0 auto;
 }

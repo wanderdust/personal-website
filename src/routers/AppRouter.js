@@ -1,21 +1,18 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import DashboardPage from '../components/DashboardPage';
+import MainPage from '../components/MainPage';
 import NotFoundPage from '../components/NotFoundPage';
+import Header from '../components/Header';
 
 export const history = createHistory();
 
 const AppRouter = () => (
   <Router history={history}>
     <div>
+      <Header />
       <Switch>
-        {
-          // If we want authentication:
-          // <PublicRoute path="/" exact={true} component={LoginPage} />
-          // <PrivateRoute path="/dashboard" component={DashboardPage} />
-        }
-        <Route path="/dashboard" component={DashboardPage} />
+        <Route path="/" component={MainPage} />
         <Route component={NotFoundPage} />
       </Switch>
     </div>

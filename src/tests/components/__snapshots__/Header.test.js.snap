@@ -19,13 +19,6 @@ exports[`should render header correctly 1`] = `
           Boilerplate
         </h1>
       </Link>
-      <button
-        className="button button--link"
-        onClick={[Function]}
-        type="button"
-      >
-        Logout
-      </button>
     </div>
   </div>
 </header>

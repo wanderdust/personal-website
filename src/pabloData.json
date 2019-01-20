@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "title": "Profile",
+    "myPhoto": "",
+    "name": "Pablo",
+    "profession": "Front End Developer",
+    "aboutMe": "My name is Pablo and I am a front end developer..."
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Some interesting quote",
+    "jobs": [
+      
+    ]
+  },
+  "abilities": {
+    "title": "Abilities",
+    "subtitle": "Some interesting quote",
+    "skills": [
+      {
+        "skill": "Javascript",
+        "level": "Expert"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Project Showcase",
+    "subtitle": "Some other quote",
+    "projects": [
+
+    ]
+  }
+}
