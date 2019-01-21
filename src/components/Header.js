@@ -13,16 +13,16 @@ export const Header = () => (
 
         <div className="header__nav">
           <div className="header__nav-item">
-            <a className="button button--link" href="#Profile"> Profile </a>
+            <a className="button button--link" href="#profile"> Profile </a>
           </div>
           <div className="header__nav-item">
-            <a className="button button--link" href="#Experience"> Experience </a>
+            <a className="button button--link" href="#experience"> Experience </a>
           </div>
           <div className="header__nav-item">
-            <a className="button button--link" href="#Abilities"> Abilities </a>
+            <a className="button button--link" href="#abilities"> Abilities </a>
           </div>
           <div className="header__nav-item">
-            <a className="button button--link" href="#Projects"> Projects </a>
+            <a className="button button--link" href="#projects"> Projects </a>
           </div>
         </div>
       </div>

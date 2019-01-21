@@ -4,14 +4,68 @@
     "myPhoto": "",
     "name": "Pablo",
     "profession": "Front End Developer",
-    "aboutMe": "My name is Pablo and I am a front end developer..."
+    "location": "Edinburgh",
+    "age": "25",
+    "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because you work faster and can learn from the others."
   },
   "experience": {
-    "title": "Experience",
+    "title": "Experiences",
     "subtitle": "Some interesting quote",
-    "jobs": [
-      
-    ]
+    "studies": {
+      "title": "Education",
+      "list": [
+        {
+          "title": "Developer",
+          "duration": {
+            "from": "February 2016",
+            "to": "Today"
+          },
+          "location": "Self taught",
+          "description": "Full time developer in my spare time. During this time I've specialized in Javascript and front-end frameworks like React, Angular, and Backbone. I've also explored back end technologies like node.js and NoSQL databases like MongoDB, as well as some PHP and SQL. I've also had the opportunity to learn other languages like Java where I've developed simple apps and Python where I've had the chance to build modern AI models like CNNs and LSTMs."
+        },
+        {
+          "title": "HND Software Development",
+          "duration": {
+            "from": "September 2018",
+            "to": "Today"
+          },
+          "location": "Edinburgh College",
+          "description": "The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC and more. During my time in college I've learned the importance of OOP, web and user experience and design. "
+        },
+        {
+          "title": "Degree in Commerce",
+          "duration": {
+            "from": "September 2011",
+            "to": "June 2016"
+          },
+          "location": "University Complutense of Madrid (UCM)",
+          "description": "Graduated with honors. During this time I participated in the Erasmus+ program studying in Düsseldorf for an academic year."
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Work Experience",
+      "list": [
+        {
+          "title": "Chef",
+          "duration": {
+            "from": "March 2017",
+            "to": "November 2018"
+          },
+          "location": "The Papermill",
+          "description": "On a busy work environment I worked with a team of chefs to prepare and serve meals. Communication was critical within the team to stay efficient and deliver the food as fast as possible."
+        },
+        {
+          "title": "Sales Executive",
+          "duration": {
+            "from": "September 2015",
+            "to": "March 2016"
+          },
+          "location": "Mygon",
+          "description": "In a small team I helped with the development of the spanish branch of the company. My tasks involved client tracking and sales. In this position I developed my understanding of a startup company as well improving my communication skills."
+        }
+      ]
+    }
   },
   "abilities": {
     "title": "Abilities",
@@ -19,7 +73,75 @@
     "skills": [
       {
         "skill": "Javascript",
-        "level": "Expert"
+        "level": "5"
+      },
+      {
+        "skill": "React & Redux",
+        "level": "5"
+      },
+      {
+        "skill": "AngularJS",
+        "level": "5"
+      },
+      {
+        "skill": "Backbone",
+        "level": "5"
+      },
+      {
+        "skill": "Node.js & npm",
+        "level": "5"
+      },
+      {
+        "skill": "Webpack",
+        "level": "5"
+      },
+      {
+        "skill": "Gulp & Grunt",
+        "level": "5"
+      },
+      {
+        "skill": "Express",
+        "level": "5"
+      },
+      {
+        "skill": "CSS/SCSS",
+        "level": "5"
+      },
+      {
+        "skill": "Command line interface",
+        "level": "5"
+      },
+      {
+        "skill": "MongoDB & Mongoose",
+        "level": "5"
+      },
+      {
+        "skill": "Python",
+        "level": "5"
+      },
+      {
+        "skill": "Java",
+        "level": "5"
+      },
+      {
+        "skill": "Git & Github",
+        "level": "5"
+      },
+      {
+        "skill": "Mocha/Jest",
+        "level": "5"
+      },
+      {
+        "skill": "Full Stack",
+        "level": "5"
+      },
+      {
+        "skill": "SQL",
+        "level": "1"
+      },
+      {
+        "skill": "PHP",
+        "level": "1"
       }
     ]
   },
@@ -27,7 +149,24 @@
     "title": "Project Showcase",
     "subtitle": "Some other quote",
     "projects": [
-
+      {
+        "title": "CourseSearch.net",
+        "description": "A search engine for available online courses",
+        "tags": ["React", "Express", "Firebase", "Development"],
+        "url": ""
+      },
+      {
+        "title": "Coin Finder",
+        "description": "A Convolutional Neural Network that detects coins from different countries",
+        "tags": ["Python", "Machine Learning", "Algorithms"],
+        "url": ""
+      },
+      {
+        "title": "React Expensify",
+        "description": "A simple app to keep track of your expenses.",
+        "tags": ["React", "Redux", "Development"],
+        "url": ""
+      }
     ]
   }
 }
