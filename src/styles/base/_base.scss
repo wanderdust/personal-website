@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Monserrat', sans-serif;
 }
 
 html {
@@ -28,4 +29,12 @@ button:disabled {
 
 ul {
   list-style-type: none;
+}
+
+h1, h2, h3, h4 {
+  margin: $s-size 0;
+}
+
+p {
+  margin: 0 0 $s-size 0;
 }

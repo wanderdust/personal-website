@@ -14,7 +14,7 @@
 
 .section__title {
   text-align: center;
-  font-weight: 500;
+  font-weight: $light-bold;
 }
 
 .section__subtitle {
@@ -24,6 +24,6 @@
 }
 
 .section__content {
-  max-width: 112rem;
+  max-width: 100rem;
   margin: 0 auto;
 }

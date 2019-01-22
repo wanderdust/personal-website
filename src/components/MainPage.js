@@ -10,7 +10,7 @@ import Projects from './MainPageSections/Projects';
 export const MainPage = ({
   profile, experience, abilities, projects
 }) => (
-  <div>
+  <div className="content-wrapper">
     <div id="profile" className="section section--light-grey">
       <Section
         sectionTitle={profile.title}
@@ -27,7 +27,7 @@ export const MainPage = ({
       />
     </div>
 
-    <div id="abilites" className="section section--light-grey">
+    <div id="abilities" className="section section--light-grey">
       <Section
         sectionTitle={abilities.title}
         sectionSubTitle={abilities.subtitle}

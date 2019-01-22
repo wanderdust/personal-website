@@ -1,12 +1,12 @@
 {
   "profile": {
     "title": "Profile",
-    "myPhoto": "",
+    "myPhoto": "https://www.fillmurray.com/600/600",
     "name": "Pablo",
     "profession": "Front End Developer",
     "location": "Edinburgh",
     "age": "25",
-    "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because you work faster and can learn from the others."
+    "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because you not only work faster but also can learn from others."
   },
   "experience": {
     "title": "Experiences",

@@ -1,0 +1,24 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__photo {
+  justify-content: center;
+}
+
+.profile__photo > img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 125px;
+}
+
+.profile__details {
+
+}
+
+.profile__details__header {
+  font-weight: bold;
+  display: block;
+}
