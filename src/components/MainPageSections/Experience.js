@@ -3,23 +3,29 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import ExperienceListItem from './ExperienceListItem';
 
-export const Experience = ({ jobs, studies }) => (
-  <div>
-    <h3>Education</h3>
-    <div>
-      {studies.map(element => (
-        <ExperienceListItem key={element.title} element={element} />
-      ))}
-    </div>
+export const Experience = ({ jobs, studies }) => {
+  const listItems = iterable => iterable.map(element => (
+    <ExperienceListItem key={element.title} element={element} />
+  ));
 
-    <h3>Work Experience</h3>
+  return (
     <div>
-      {jobs.map(element => (
-        <ExperienceListItem key={element.title} element={element} />
-      ))}
+      <div className="sub-section">
+        <h3 className="sub-section__title">Education</h3>
+        <div>
+          {listItems(studies)}
+        </div>
+      </div>
+      <hr className="separator" />
+      <div className="sub-section">
+        <h3 className="sub-section__title">Work Experience</h3>
+        <div>
+          {listItems(jobs)}
+        </div>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 Experience.defaultProps = {
   jobs: [],

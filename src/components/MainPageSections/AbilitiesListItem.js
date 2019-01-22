@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import Star from './Stars';
 
 export const AbilitiesListItem = ({ ability }) => (
-  <div>
-    <h4>{ability.skill}</h4>
-    <p>{ability.level}</p>
+  <div className="ability-item">
+    <p className="ability-item__title">{ability.skill}</p>
+    <Star level={ability.level} />
   </div>
 );
 

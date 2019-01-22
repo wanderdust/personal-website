@@ -73,75 +73,143 @@
     "skills": [
       {
         "skill": "Javascript",
-        "level": "5"
+        "level": ["x", "x", "x", "x", "x"]
       },
       {
         "skill": "React & Redux",
-        "level": "5"
-      },
-      {
-        "skill": "AngularJS",
-        "level": "5"
-      },
-      {
-        "skill": "Backbone",
-        "level": "5"
+        "level": ["x", "x", "x", "x", "x"]
       },
       {
         "skill": "Node.js & npm",
-        "level": "5"
-      },
-      {
-        "skill": "Webpack",
-        "level": "5"
-      },
-      {
-        "skill": "Gulp & Grunt",
-        "level": "5"
+        "level": ["x", "x", "x", "x", "x"]
       },
       {
         "skill": "Express",
-        "level": "5"
+        "level": ["x", "x", "x", "x", "x"]
       },
       {
         "skill": "CSS/SCSS",
-        "level": "5"
+        "level": ["x", "x", "x", "x", "x"]
       },
       {
         "skill": "Command line interface",
-        "level": "5"
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Backbone",
+        "level": ["x", "x", "x", "x"]
+      },
+      {
+        "skill": "Webpack",
+        "level": ["x", "x", "x", "x"]
       },
       {
         "skill": "MongoDB & Mongoose",
-        "level": "5"
+        "level": ["x", "x", "x", "x"]
       },
       {
-        "skill": "Python",
-        "level": "5"
-      },
-      {
-        "skill": "Java",
-        "level": "5"
+        "skill": "Gulp & Grunt",
+        "level": ["x", "x", "x", "x"]
       },
       {
         "skill": "Git & Github",
-        "level": "5"
+        "level": ["x", "x", "x", "x"]
       },
       {
         "skill": "Mocha/Jest",
-        "level": "5"
+        "level": ["x", "x", "x", "x"]
       },
       {
         "skill": "Full Stack",
-        "level": "5"
+        "level": ["x", "x", "x", "x"]
+      },
+      {
+        "skill": "AngularJS",
+        "level": ["x", "x", "x"]
+      },
+      {
+        "skill": "Python",
+        "level": ["x", "x", "x"]
+      },
+      {
+        "skill": "Java",
+        "level": ["x", "x", "x"]
       },
       {
         "skill": "SQL",
-        "level": "1"
+        "level": ["x"]
       },
       {
         "skill": "PHP",
-        "level": "1"
+        "level": ["x"]
+      }
+    ],
+    "languages": [
+      {
+        "skill": "Spanish (mother tongue)",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "English (everyday use)",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Portuguese",
+        "level": ["x", "x"]
+      },
+      {
+        "skill": "German",
+        "level": ["x"]
+      }
+    ],
+    "tools": [
+      {
+        "skill": "Visual Studio Code",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Atom",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Windows",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Firefox",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Chrome",
+        "level": ["x", "x", "x", "x", "x"]
+      },
+      {
+        "skill": "Internet Explorer 10+",
+        "level": ["x", "x", "x", "x"]
+      },
+      {
+        "skill": "Ubuntu",
+        "level": ["x", "x", "x", "x"]
+      },
+      {
+        "skill": "MS Office",
+        "level": ["x", "x", "x", "x"]
+      },
+      {
+        "skill": "Jupyter Notebook",
+        "level": ["x", "x", "x"]
+      },
+      {
+        "skill": "Studio 3T",
+        "level": ["x", "x", "x"]
+      },
+      {
+        "skill": "IntelliJ",
+        "level": ["x", "x", "x"]
+      },
+      {
+        "skill": "Gimp",
+        "level": ["x", "x", "x"]
       }
     ]
   },

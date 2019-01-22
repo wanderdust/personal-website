@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 export const Profile = ({ profile }) => (
   <div className="profile">
     <div className="profile__about flex-col">
-      <h2>About me</h2>
+      <h3>About me</h3>
       <p>{profile.aboutMe}</p>
     </div>
     <div className="profile__photo flex-col">
       <img src={profile.myPhoto} alt="profile" />
     </div>
     <div className="profile__details flex-col">
-      <h2>Details</h2>
+      <h3>Details</h3>
       <p>
         <span className="profile__details__header">Name:</span>
         {` ${profile.name}`}

@@ -1,0 +1,17 @@
+.experiences {
+  margin-top: 50px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience__heading {
+  flex: 1;
+}
+
+.experience__description {
+  flex: 2;
+  padding-left: $m-size;
+}

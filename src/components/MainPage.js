@@ -11,7 +11,7 @@ export const MainPage = ({
   profile, experience, abilities, projects
 }) => (
   <div className="content-wrapper">
-    <div id="profile" className="section section--light-grey">
+    <div id="profile" className="section section--basic">
       <Section
         sectionTitle={profile.title}
         sectionSubTitle={profile.profession}
@@ -19,7 +19,7 @@ export const MainPage = ({
       />
     </div>
 
-    <div id="experience" className="section section--basic">
+    <div id="experience" className="section section--light-grey">
       <Section
         sectionTitle={experience.title}
         sectionSubTitle={experience.subtitle}
@@ -27,7 +27,7 @@ export const MainPage = ({
       />
     </div>
 
-    <div id="abilities" className="section section--light-grey">
+    <div id="abilities" className="section section--basic">
       <Section
         sectionTitle={abilities.title}
         sectionSubTitle={abilities.subtitle}
@@ -35,7 +35,7 @@ export const MainPage = ({
       />
     </div>
 
-    <div id="projects" className="section section--basic">
+    <div id="projects" className="section section--light-grey">
       <Section
         sectionTitle={projects.title}
         sectionSubTitle={projects.subtitle}

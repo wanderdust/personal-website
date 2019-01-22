@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 export const ExperienceListItem = ({ element }) => (
-  <div>
-    <div>
+  <div className="experience">
+    <div className="experience__heading flex-col">
       <h4>{element.location}</h4>
       <p>{`${element.duration.from} - ${element.duration.to}`}</p>
     </div>
 
-    <div>
+    <div className="experience__description flex-col flex-col--flat">
       <h4>{element.title}</h4>
       <p>{element.description}</p>
     </div>
