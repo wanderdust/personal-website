@@ -65,6 +65,20 @@
           "description": "In a small team I helped with the development of the spanish branch of the company. My tasks involved client tracking and sales. In this position I developed my understanding of a startup company as well improving my communication skills."
         }
       ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "list": [
+        {
+          "title": "Project Manager",
+          "duration": {
+            "from": "January 2016",
+            "to": "September 2016"
+          },
+          "location": "AIPC Pandora",
+          "description": "Participant and organizer of the Wanderdust team in the Mongol Rally: the longest charity rally in the world. This project was backed up by 7 sponsors and 1,040€ were raised for the NGO AIPC Pandora and their education grants. Blog: wanderdustproject.com"
+        }
+      ]
     }
   },
   "abilities": {
@@ -73,143 +87,143 @@
     "skills": [
       {
         "skill": "Javascript",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "React & Redux",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Node.js & npm",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Express",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "CSS/SCSS",
-        "level": ["x", "x", "x", "x", "x"]
-      },
-      {
-        "skill": "Command line interface",
-        "level": ["x", "x", "x", "x", "x"]
-      },
-      {
-        "skill": "Backbone",
-        "level": ["x", "x", "x", "x"]
-      },
-      {
-        "skill": "Webpack",
-        "level": ["x", "x", "x", "x"]
-      },
-      {
-        "skill": "MongoDB & Mongoose",
-        "level": ["x", "x", "x", "x"]
-      },
-      {
-        "skill": "Gulp & Grunt",
-        "level": ["x", "x", "x", "x"]
-      },
-      {
-        "skill": "Git & Github",
-        "level": ["x", "x", "x", "x"]
-      },
-      {
-        "skill": "Mocha/Jest",
-        "level": ["x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Full Stack",
-        "level": ["x", "x", "x", "x"]
+        "level": 5
+      },
+      {
+        "skill": "Backbone",
+        "level": 4
+      },
+      {
+        "skill": "Webpack",
+        "level": 4
+      },
+      {
+        "skill": "Gulp & Grunt",
+        "level": 4
+      },
+      {
+        "skill": "Git & Github",
+        "level": 4
+      },
+      {
+        "skill": "Mocha/Jest",
+        "level": 4
+      },
+      {
+        "skill": "Command line interface",
+        "level": 4
       },
       {
         "skill": "AngularJS",
-        "level": ["x", "x", "x"]
+        "level": 3
+      },
+      {
+        "skill": "MongoDB & Mongoose",
+        "level": 3
       },
       {
         "skill": "Python",
-        "level": ["x", "x", "x"]
+        "level": 3
       },
       {
         "skill": "Java",
-        "level": ["x", "x", "x"]
+        "level": 3
       },
       {
         "skill": "SQL",
-        "level": ["x"]
+        "level": 1
       },
       {
         "skill": "PHP",
-        "level": ["x"]
+        "level": 1
       }
     ],
     "languages": [
       {
         "skill": "Spanish (mother tongue)",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "English (everyday use)",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Portuguese",
-        "level": ["x", "x"]
+        "level": 2
       },
       {
         "skill": "German",
-        "level": ["x"]
+        "level": 1
       }
     ],
     "tools": [
       {
         "skill": "Visual Studio Code",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Atom",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Windows",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Firefox",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Chrome",
-        "level": ["x", "x", "x", "x", "x"]
+        "level": 5
       },
       {
         "skill": "Internet Explorer 10+",
-        "level": ["x", "x", "x", "x"]
+        "level": 4
       },
       {
         "skill": "Ubuntu",
-        "level": ["x", "x", "x", "x"]
+        "level": 4
       },
       {
         "skill": "MS Office",
-        "level": ["x", "x", "x", "x"]
+        "level": 4
       },
       {
         "skill": "Jupyter Notebook",
-        "level": ["x", "x", "x"]
+        "level": 3
       },
       {
         "skill": "Studio 3T",
-        "level": ["x", "x", "x"]
+        "level": 3
       },
       {
         "skill": "IntelliJ",
-        "level": ["x", "x", "x"]
+        "level": 3
       },
       {
         "skill": "Gimp",
-        "level": ["x", "x", "x"]
+        "level": 3
       }
     ]
   },

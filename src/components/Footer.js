@@ -5,12 +5,12 @@ export const Footer = () => (
     <div>
       <ul className="footer__icons">
         <li>
-          <a href="github">
+          <a href="https://github.com/wanderdust?tab=repositories">
             <img className="footer__icon" src="/images/icon-github.svg" alt="Github" />
           </a>
         </li>
         <li>
-          <a href="linkedin">
+          <a href="https://www.linkedin.com/in/lopezsantoripablo">
             <img className="footer__icon" src="/images/icon-linkedin.svg" alt="Linkedin" />
           </a>
         </li>
