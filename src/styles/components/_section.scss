@@ -1,7 +1,7 @@
 .section {
   overflow: hidden;
   position: relative;
-  padding: 7.5rem 1.6rem;
+  padding: 5rem 1rem;
   justify-content: center;
 }
 
@@ -35,4 +35,11 @@
 
 .sub-section__title {
   padding: 0 $m-size;
+}
+
+// Styles for desktop
+@media (min-width: $desktop-breakpoint) {
+  .section {
+    padding: 7.5rem 1.6rem;
+  }
 }

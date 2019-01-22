@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import ProjectsListItem from './ProjectsListItem';
 
 export const Projects = ({ projects }) => (
-  <div>
+  <div className="projects_container">
     {projects.map(project => (
       <ProjectsListItem key={project.title} project={project} />
     ))}

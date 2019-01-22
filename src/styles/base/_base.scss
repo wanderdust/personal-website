@@ -6,6 +6,7 @@
 html {
   // 1 rem is 16px. By doing this we convert 1rem to 10px.
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,6 +30,7 @@ button:disabled {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 h1, h2, h3, h4 {

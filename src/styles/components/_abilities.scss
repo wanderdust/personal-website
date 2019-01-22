@@ -1,9 +1,42 @@
+.abilities__col {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .abilities__skills {
   display: flex;
+  flex-direction: column;
 }
 
 .ability-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  &:hover {
+    background: $light-gray;
+    img {
+      padding-left: 0.3rem;
+    }
+  }
+}
+
+.ability-item__rating > img {
+  height: 20px;
+  width: auto;
+}
+
+.ability-item__rating img {
+  padding-left: 0;
+  transition: padding .3s;
+}
+
+
+// Styles for desktop
+@media (min-width: $desktop-breakpoint) {
+  .abilities__col {
+    padding: $m-size;
+  }
+  .abilities__skills {
+    flex-direction: row;
+  }
 }

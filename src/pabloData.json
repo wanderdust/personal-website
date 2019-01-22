@@ -6,6 +6,7 @@
     "profession": "Front End Developer",
     "location": "Edinburgh",
     "age": "25",
+    "email": "pablo.lopez.santori@gmail.com",
     "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because you not only work faster but also can learn from others."
   },
   "experience": {
@@ -20,7 +21,7 @@
             "from": "February 2016",
             "to": "Today"
           },
-          "location": "Self taught",
+          "location": "Self taught Developer",
           "description": "Full time developer in my spare time. During this time I've specialized in Javascript and front-end frameworks like React, Angular, and Backbone. I've also explored back end technologies like node.js and NoSQL databases like MongoDB, as well as some PHP and SQL. I've also had the opportunity to learn other languages like Java where I've developed simple apps and Python where I've had the chance to build modern AI models like CNNs and LSTMs."
         },
         {
@@ -232,22 +233,25 @@
     "subtitle": "Some other quote",
     "projects": [
       {
-        "title": "CourseSearch.net",
+        "title": "CourseSearch",
         "description": "A search engine for available online courses",
         "tags": ["React", "Express", "Firebase", "Development"],
-        "url": ""
+        "img": "/images/screenshot-coursesearch.png",
+        "url": "https://www.coursesearch.net/"
       },
       {
         "title": "Coin Finder",
         "description": "A Convolutional Neural Network that detects coins from different countries",
         "tags": ["Python", "Machine Learning", "Algorithms"],
-        "url": ""
+        "img": "/images/screenshot-coin-cnn.png",
+        "url": "https://github.com/wanderdust/coin-cnn"
       },
       {
         "title": "React Expensify",
         "description": "A simple app to keep track of your expenses.",
         "tags": ["React", "Redux", "Development"],
-        "url": ""
+        "img": "/images/screenshot-expensify.png",
+        "url": "https://react-expensify-wanderdust.herokuapp.com/"
       }
     ]
   }

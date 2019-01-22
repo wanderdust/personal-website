@@ -8,10 +8,17 @@
 }
 
 .experience__heading {
-  flex: 1;
+  padding: $s-size;
 }
 
 .experience__description {
   flex: 2;
   padding-left: $m-size;
+}
+
+// Styles for desktop
+@media (min-width: $desktop-breakpoint) {
+  .experience__heading {
+    padding: $m-size;
+  }
 }

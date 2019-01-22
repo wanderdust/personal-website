@@ -2,5 +2,12 @@
   color: $light-gray;
   border-color: white;
   opacity: 0.2;
-  margin: 6rem 0;
+  margin: 3rem 0;
+}
+
+// Styles for desktop
+@media (min-width: $desktop-breakpoint) {
+  .separator {
+    margin: 6rem 0;
+  }
 }

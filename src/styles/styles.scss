@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monserrat');
 @import "./base/settings";
 @import "./base/base";
+@import "./components/flex-columns";
 @import "./components/content-wrapper";
 @import "./components/section";
 @import "./components/button";
@@ -9,8 +10,9 @@
 @import "./components/profile";
 @import "./components/footer";
 @import "./components/form";
-@import "./components/visibility";
-@import "./components/flex-columns";
 @import "./components/experience";
 @import "./components/separator";
 @import "./components/abilities";
+@import "./components/projects";
+@import "./components/contact";
+@import "./components/visibility";

@@ -20,7 +20,7 @@ export const Stars = ({ level }) => {
   };
 
   return (
-    <span>
+    <span className="ability-item__rating">
       {ratingArray().map((star) => {
         const starSrc = star ? 'icon-star-filled.svg' : 'icon-star-empty.svg';
         return (<img key={uuid()} src={`images/${starSrc}`} alt="star" />);

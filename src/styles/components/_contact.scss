@@ -1,0 +1,17 @@
+#contact {
+  background-image: url("/images/bg.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .section__subtitle {
+  margin-bottom: 2rem;
+}

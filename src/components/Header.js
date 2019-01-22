@@ -11,7 +11,7 @@ export const Header = () => (
           <h4 className="header-brand__subtitle">Front End Developer</h4>
         </Link>
 
-        <div className="header__nav">
+        <div className="header__nav show-for-desktop">
           <div className="header__nav-item">
             <a className="button button--link" href="#profile"> Profile </a>
           </div>
@@ -23,6 +23,9 @@ export const Header = () => (
           </div>
           <div className="header__nav-item">
             <a className="button button--link" href="#projects"> Projects </a>
+          </div>
+          <div className="header__nav-item">
+            <a className="button button--link" href="#contact"> Contact </a>
           </div>
         </div>
       </div>

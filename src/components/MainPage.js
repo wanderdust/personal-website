@@ -6,6 +6,7 @@ import Profile from './MainPageSections/Profile';
 import Experience from './MainPageSections/Experience';
 import Abilities from './MainPageSections/Abilities';
 import Projects from './MainPageSections/Projects';
+import Contact from './MainPageSections/Contact';
 
 export const MainPage = ({
   profile, experience, abilities, projects
@@ -40,6 +41,14 @@ export const MainPage = ({
         sectionTitle={projects.title}
         sectionSubTitle={projects.subtitle}
         component={Projects}
+      />
+    </div>
+
+    <div id="contact" className="section section--basic">
+      <Section
+        sectionTitle="Get In Touch"
+        sectionSubTitle="Want to hire me? Get in touch!"
+        component={Contact}
       />
     </div>
   </div>

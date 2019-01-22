@@ -8,7 +8,7 @@ export const Abilities = ({ skills, languages, tools }) => {
   // Renders the columns
   const renderCols = (cols, renderFn) => cols.map(
     col => (
-      <div key={uuid()} className="flex-col">
+      <div key={uuid()} className="flex-col abilities__col">
         {renderFn(col)}
       </div>
     )

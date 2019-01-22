@@ -8,7 +8,7 @@ export const ExperienceListItem = ({ element }) => (
       <p>{`${element.duration.from} - ${element.duration.to}`}</p>
     </div>
 
-    <div className="experience__description flex-col flex-col--flat">
+    <div className="show-for-desktop experience__description flex-col flex-col--flat">
       <h4>{element.title}</h4>
       <p>{element.description}</p>
     </div>

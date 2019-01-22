@@ -1,10 +1,19 @@
 .profile {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+}
+
+.profile__about {
+  justify-content: center;
 }
 
 .profile__photo {
-  justify-content: center;
+  align-items: center;
+}
+
+.profile__details {
+  align-items: center;
 }
 
 .profile__photo > img {
@@ -14,11 +23,18 @@
   border-radius: 125px;
 }
 
-.profile__details {
-
-}
-
 .profile__details__header {
   font-weight: bold;
   display: block;
+}
+
+// Styles for desktop
+@media (min-width: $desktop-breakpoint) {
+  .profile {
+    flex-direction: row;
+  }
+
+  .profile__photo, .profile__details {
+    align-items: flex-start;
+  }
 }

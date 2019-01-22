@@ -5,7 +5,7 @@
   padding: 0 1rem;
   position: fixed;
   right: 0;
-  z-index: 30;
+  z-index: 9000;
 }
 
 .header__content {
@@ -29,13 +29,14 @@
   color: $black;
   margin: 0;
   line-height: 1;
-  font-size: 2.843rem;
+  font-size: 2rem;
 }
 
 .header-brand__subtitle {
   color: #CC322D;
   margin: 0;
   font-weight: 600;
+  font-size: 1.3rem;
 }
 
 .header__nav {
@@ -44,4 +45,15 @@
 
 .header__nav-item {
   display: inline-block;
+}
+
+// Styles for desktop
+@media (min-width: $desktop-breakpoint) {
+  .header-brand__title {
+    font-size: 2.843rem;
+  }
+
+  .header-brand__subtitle {
+    font-size: 1.7rem;
+  }
 }

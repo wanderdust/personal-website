@@ -1,0 +1,75 @@
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project {
+  position: relative;
+  width: 35rem;
+  height: 19rem;
+  justify-content: space-between;
+  margin: $m-size;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: lighten($dark-gray, 30%);
+
+  &:hover .figcaption {
+    opacity: 1;
+  }
+  &:hover img {
+    opacity: 0.3;
+  }
+}
+
+.project__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  opacity: 0;
+}
+
+.figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.figcaption {
+  padding: $m-size $s-size;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  opacity: 0;
+  color: white;
+  transition: opacity 0.45s, transform 0.35s;
+}
+
+.figcaption__description {
+  font-size: $font-size-small;
+}
+
+.figcaption__tags {
+  display: flex;
+  align-items: center;
+  font-size: $font-size-small;
+
+  > img {
+    padding-right: .3rem;
+  }
+
+  > span {
+    padding: 0 .3rem;
+  }
+}
+
+.project img {
+  position: relative;
+  max-width: 100%;
+  transition: opacity 0.45s, transform 0.35s;
+}
