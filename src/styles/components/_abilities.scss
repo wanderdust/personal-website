@@ -32,6 +32,15 @@
   transition: padding .3s;
 }
 
+.foot-note {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  > a {
+    padding-left: 2px;
+  }
+}
+
 
 // Styles for desktop
 @media (min-width: $desktop-breakpoint) {

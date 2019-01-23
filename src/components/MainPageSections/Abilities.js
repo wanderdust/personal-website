@@ -28,6 +28,11 @@ export const Abilities = ({ skills, languages, tools }) => {
         </div>
       </div>
 
+      <span className="foot-note">
+        {'This website was built with react and node.js! '}
+        <a href="https://github.com/wanderdust/personal-website" target="_blank">Check it out!</a>
+      </span>
+
       <hr className="separator" />
 
       <div className="sub-section">
