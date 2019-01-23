@@ -14,9 +14,11 @@
 
 .profile__details {
   align-items: center;
+  text-align: center;
 }
 
 .profile__photo > img {
+  box-shadow: $shadow;
   max-width: 250px;
   width: 100%;
   height: auto;

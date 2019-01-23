@@ -1,7 +1,7 @@
 {
   "profile": {
     "title": "Profile",
-    "myPhoto": "https://www.fillmurray.com/600/600",
+    "myPhoto": "/images/profile.jpg",
     "name": "Pablo",
     "profession": "Front End Developer",
     "location": "Edinburgh",
@@ -11,7 +11,7 @@
   },
   "experience": {
     "title": "Experiences",
-    "subtitle": "Some interesting quote",
+    "subtitle": "How did I get to where I am today?",
     "studies": {
       "title": "Education",
       "list": [
@@ -84,7 +84,7 @@
   },
   "abilities": {
     "title": "Abilities",
-    "subtitle": "Some interesting quote",
+    "subtitle": "All the skills I've gained in the past years. I've Specialised in Front End but I also love to play around",
     "skills": [
       {
         "skill": "Javascript",
@@ -230,7 +230,7 @@
   },
   "projects": {
     "title": "Project Showcase",
-    "subtitle": "Some other quote",
+    "subtitle": "Some of the many projects I've put all my love and passion into!",
     "projects": [
       {
         "title": "CourseSearch",

@@ -45,6 +45,10 @@
 
 .header__nav-item {
   display: inline-block;
+
+  &:hover {
+    background: $light-gray;
+  }
 }
 
 // Styles for desktop

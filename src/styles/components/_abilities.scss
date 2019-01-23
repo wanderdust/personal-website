@@ -20,12 +20,14 @@
   }
 }
 
+.ability-item span {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .ability-item__rating > img {
   height: 20px;
   width: auto;
-}
-
-.ability-item__rating img {
   padding-left: 0;
   transition: padding .3s;
 }
