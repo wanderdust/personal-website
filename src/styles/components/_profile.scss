@@ -36,6 +36,10 @@
     flex-direction: row;
   }
 
+  .profile__details {
+    text-align: left;
+  }
+
   .profile__photo, .profile__details {
     align-items: flex-start;
   }
