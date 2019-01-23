@@ -13,6 +13,11 @@
   background-color: $off-white;
 }
 
+.content {
+  position: relative;
+  z-index: 10;
+}
+
 .section__title {
   text-align: center;
   font-weight: $light-bold;
@@ -35,6 +40,16 @@
 
 .sub-section__title {
   padding: 0 $m-size;
+}
+
+.section-filter {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 // Styles for desktop

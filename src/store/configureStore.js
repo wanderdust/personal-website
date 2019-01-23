@@ -6,6 +6,7 @@ import {
 } from 'redux';
 import thunk from 'redux-thunk';
 import dataReducer from '../reducers/data';
+import mobileNavReducer from '../reducers/mobileNav';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -17,7 +18,8 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 export default () => {
   const store = createStore(
     combineReducers({
-      data: dataReducer
+      data: dataReducer,
+      mobileNav: mobileNavReducer
     }),
     composeEnhancers(applyMiddleware(thunk))
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 export const Section = ({ sectionTitle, sectionSubTitle, component: Component }) => (
-  <div>
+  <div className="content">
     <h1 className="section__title">{sectionTitle}</h1>
     <p className="section__subtitle">
       {sectionSubTitle}

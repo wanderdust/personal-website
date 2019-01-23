@@ -1,36 +1,71 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { PropTypes } from 'prop-types';
+import { setIsNavbarOpen } from '../actions/mobileNav';
 
-export const Header = () => (
-  <header className="header">
-    <div>
-      <div className="header__content">
+export const Header = ({ isNavbarOpen, setNavbarStatus }) => {
+  const headerLinks = ['Profile', 'Experience', 'Abilities', 'Projects', 'Contact'];
 
-        <Link className="header-brand" to="/">
-          <h2 className="header-brand__title">Pablo Lopez</h2>
-          <h4 className="header-brand__subtitle">Front End Developer</h4>
-        </Link>
+  const handleOnClick = () => {
+    setNavbarStatus(!isNavbarOpen);
+  };
+  // For accesibilty for people without mouse.
+  const handleOnKeyPress = (e) => {};
 
-        <div className="header__nav show-for-desktop">
-          <div className="header__nav-item">
-            <a className="button button--link" href="#profile"> Profile </a>
+  const renderLinkButtons = () => {
+    return headerLinks.map((linkName) => {
+      // Get the id of the element eg: #profile
+      const referralHash = `#${linkName.toLowerCase()}`;
+      return (
+        <div className="header__nav-item">
+          <a className="button button--link" href={referralHash}>{linkName}</a>
+        </div>
+      );
+    });
+  };
+
+  return (
+    <header className="header">
+      <div>
+        <div className="header__content">
+
+          <Link className="header-brand" to="/">
+            <h2 className="header-brand__title">Pablo Lopez</h2>
+            <h4 className="header-brand__subtitle">Front End Developer</h4>
+          </Link>
+
+          <div className="header__nav show-for-desktop">
+            {renderLinkButtons()}
           </div>
-          <div className="header__nav-item">
-            <a className="button button--link" href="#experience"> Experience </a>
-          </div>
-          <div className="header__nav-item">
-            <a className="button button--link" href="#abilities"> Abilities </a>
-          </div>
-          <div className="header__nav-item">
-            <a className="button button--link" href="#projects"> Projects </a>
-          </div>
-          <div className="header__nav-item">
-            <a className="button button--link" href="#contact"> Contact </a>
-          </div>
+
+          <button
+            onClick={handleOnClick}
+            onKeyPress={handleOnKeyPress}
+            type="button"
+            className="button button--link header__nav-item header__nav-item--mobile mobile-menu-trigger show-for-mobile"
+          >
+            <span className="menu-icon-mobile">
+              <img src="images/icon-burger-menu.svg" alt="menu icon for mobile" />
+            </span>
+          </button>
         </div>
       </div>
-    </div>
-  </header>
-);
+    </header>
+  );
+};
 
-export default Header;
+Header.propTypes = {
+  isNavbarOpen: PropTypes.bool.isRequired,
+  setNavbarStatus: PropTypes.func.isRequired
+};
+
+const mapStateToProps = state => ({
+  isNavbarOpen: state.mobileNav.isNavbarOpen
+});
+
+const mapDispatchToProps = dispatch => ({
+  setNavbarStatus: isNavbarOpen => dispatch(setIsNavbarOpen(isNavbarOpen))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
