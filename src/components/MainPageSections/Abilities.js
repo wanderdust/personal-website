@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import uuid from 'uuid';
 import AbilitiesListItem from './AbilitiesListItem';
+import arraySplitter from '../../utils/arraySplitter';
 
 export const Abilities = ({ skills, languages, tools }) => {
   // Renders the columns
@@ -67,18 +68,9 @@ Abilities.propTypes = {
 };
 
 const mapStateToProps = (state) => {
-  // Split the abilities into two arrays so we can
-  // display it into two columns.
-  const splitAbilites = (iterable) => {
-    const splitIndex = Math.ceil(iterable.length / 2);
-    const colOne = iterable.slice(0, splitIndex);
-    const colTwo = iterable.slice(splitIndex);
-
-    return [colOne, colTwo];
-  };
-  const skills = splitAbilites(state.data.abilities.skills);
-  const languages = splitAbilites(state.data.abilities.languages);
-  const tools = splitAbilites(state.data.abilities.tools);
+  const skills = arraySplitter(state.data.abilities.skills);
+  const languages = arraySplitter(state.data.abilities.languages);
+  const tools = arraySplitter(state.data.abilities.tools);
 
   return {
     skills,

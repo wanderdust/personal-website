@@ -4,21 +4,100 @@ exports[`should render header correctly 1`] = `
 <header
   className="header"
 >
-  <div
-    className="content-container"
-  >
+  <div>
     <div
       className="header__content"
     >
       <Link
-        className="header__title"
+        className="header-brand"
         replace={false}
         to="/"
       >
-        <h1>
-          Boilerplate
-        </h1>
+        <h2
+          className="header-brand__title"
+        >
+          Pablo Lopez
+        </h2>
+        <h4
+          className="header-brand__subtitle"
+        >
+          Front End Developer
+        </h4>
       </Link>
+      <div
+        className="header__nav show-for-desktop"
+      >
+        <div
+          className="header__nav-item"
+          key="1"
+        >
+          <a
+            className="button button--link"
+            href="#profile"
+          >
+            Profile
+          </a>
+        </div>
+        <div
+          className="header__nav-item"
+          key="1"
+        >
+          <a
+            className="button button--link"
+            href="#experience"
+          >
+            Experience
+          </a>
+        </div>
+        <div
+          className="header__nav-item"
+          key="1"
+        >
+          <a
+            className="button button--link"
+            href="#abilities"
+          >
+            Abilities
+          </a>
+        </div>
+        <div
+          className="header__nav-item"
+          key="1"
+        >
+          <a
+            className="button button--link"
+            href="#projects"
+          >
+            Projects
+          </a>
+        </div>
+        <div
+          className="header__nav-item"
+          key="1"
+        >
+          <a
+            className="button button--link"
+            href="#contact"
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+      <button
+        className="button button--link header__nav-item header__nav-item--mobile mobile-menu-trigger show-for-mobile"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        type="button"
+      >
+        <span
+          className="menu-icon-mobile"
+        >
+          <img
+            alt="menu icon for mobile"
+            src="images/icon-burger-menu.svg"
+          />
+        </span>
+      </button>
     </div>
   </div>
 </header>

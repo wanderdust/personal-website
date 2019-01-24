@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render HeaderNavMobile correctly 1`] = `
+<div
+  className="mobile-header show-for-mobile mobile-header--open"
+>
+  <div
+    className="header__nav-item mobile-header__nav-item"
+    key="1"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="presentation"
+  >
+    <a
+      className="button button--link"
+      href="#profile"
+    >
+      Profile
+    </a>
+  </div>
+  <div
+    className="header__nav-item mobile-header__nav-item"
+    key="1"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="presentation"
+  >
+    <a
+      className="button button--link"
+      href="#experience"
+    >
+      Experience
+    </a>
+  </div>
+  <div
+    className="header__nav-item mobile-header__nav-item"
+    key="1"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="presentation"
+  >
+    <a
+      className="button button--link"
+      href="#abilities"
+    >
+      Abilities
+    </a>
+  </div>
+  <div
+    className="header__nav-item mobile-header__nav-item"
+    key="1"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="presentation"
+  >
+    <a
+      className="button button--link"
+      href="#projects"
+    >
+      Projects
+    </a>
+  </div>
+  <div
+    className="header__nav-item mobile-header__nav-item"
+    key="1"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    role="presentation"
+  >
+    <a
+      className="button button--link"
+      href="#contact"
+    >
+      Contact
+    </a>
+  </div>
+</div>
+`;

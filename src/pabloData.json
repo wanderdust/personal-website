@@ -7,7 +7,7 @@
     "location": "Edinburgh",
     "age": "25",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because you not only work faster but also can learn from others."
+    "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because it is not only faster but you can also learn from others."
   },
   "experience": {
     "title": "Experiences",
@@ -18,7 +18,7 @@
         {
           "title": "Developer",
           "duration": {
-            "from": "February 2016",
+            "from": "February 2017",
             "to": "Today"
           },
           "location": "Self taught Developer",

@@ -1,10 +1,6 @@
-/*
-* shallow lets us test components using regular javascript.
-* It only renders the given component.
-*/
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Header } from '../../components/Header';
+import { HeaderNavMobile } from '../../components/HeaderNavMobile';
 
 let isNavbarOpen;
 let setNavbarStatus;
@@ -15,18 +11,18 @@ beforeEach(() => {
   setNavbarStatus = jest.fn();
 
   wrapper = shallow(
-    <Header
+    <HeaderNavMobile
       isNavbarOpen={isNavbarOpen}
       setNavbarStatus={setNavbarStatus}
     />
   );
 });
 
-test('should render header correctly', () => {
+test('should render HeaderNavMobile correctly', () => {
   expect(wrapper).toMatchSnapshot();
 });
 
 test('should handle onClick correctly', () => {
-  wrapper.find('button').simulate('click');
+  wrapper.find('.header__nav-item').at('1').simulate('click');
   expect(setNavbarStatus).toHaveBeenCalledWith(false);
 });
