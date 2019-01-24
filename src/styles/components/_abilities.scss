@@ -34,6 +34,8 @@
 
 .foot-note {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: center;
   font-size: 1.4rem;
   > a {
@@ -48,6 +50,9 @@
     padding: $m-size;
   }
   .abilities__skills {
+    flex-direction: row;
+  }
+  .foot-note {
     flex-direction: row;
   }
 }

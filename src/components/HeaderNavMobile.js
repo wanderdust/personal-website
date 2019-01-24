@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
-import { setIsNavbarOpen } from '../actions/mobileNav';
 import uuid from 'uuid';
+import { setIsNavbarOpen } from '../actions/mobileNav';
 
 export const HeaderNavMobile = ({ isNavbarOpen, setNavbarStatus }) => {
   const headerLinks = ['Profile', 'Experience', 'Abilities', 'Projects', 'Contact'];
@@ -13,22 +13,20 @@ export const HeaderNavMobile = ({ isNavbarOpen, setNavbarStatus }) => {
   // For accesibilty for people without mouse.
   const handleOnKeyPress = (e) => {};
 
-  const renderLinkButtons = () => {
-    return headerLinks.map((linkName) => {
-      const referralHash = `#${linkName.toLowerCase()}`;
-      return (
-        <div
-          key={uuid()}
-          onClick={handleOnClick}
-          onKeyPress={handleOnKeyPress}
-          role="presentation"
-          className="header__nav-item mobile-header__nav-item"
-        >
-          <a className="button button--link" href={referralHash}>{linkName}</a>
-        </div>
-      );
-    });
-  };
+  const renderLinkButtons = () => headerLinks.map((linkName) => {
+    const referralHash = `#${linkName.toLowerCase()}`;
+    return (
+      <div
+        key={uuid()}
+        onClick={handleOnClick}
+        onKeyPress={handleOnKeyPress}
+        role="presentation"
+        className="header__nav-item mobile-header__nav-item"
+      >
+        <a className="button button--link" href={referralHash}>{linkName}</a>
+      </div>
+    );
+  });
 
   return (
     <div className={`mobile-header show-for-mobile ${isNavbarOpen && 'mobile-header--open'}`}>

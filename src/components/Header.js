@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
+import uuid from 'uuid';
 import { setIsNavbarOpen } from '../actions/mobileNav';
 
 export const Header = ({ isNavbarOpen, setNavbarStatus }) => {
@@ -13,17 +14,15 @@ export const Header = ({ isNavbarOpen, setNavbarStatus }) => {
   // For accesibilty for people without mouse.
   const handleOnKeyPress = (e) => {};
 
-  const renderLinkButtons = () => {
-    return headerLinks.map((linkName) => {
-      // Get the id of the element eg: #profile
-      const referralHash = `#${linkName.toLowerCase()}`;
-      return (
-        <div className="header__nav-item">
-          <a className="button button--link" href={referralHash}>{linkName}</a>
-        </div>
-      );
-    });
-  };
+  const renderLinkButtons = () => headerLinks.map((linkName) => {
+    // Get the id of the element eg: #profile
+    const referralHash = `#${linkName.toLowerCase()}`;
+    return (
+      <div key={uuid()} className="header__nav-item">
+        <a className="button button--link" href={referralHash}>{linkName}</a>
+      </div>
+    );
+  });
 
   return (
     <header className="header">
