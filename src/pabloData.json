@@ -252,6 +252,13 @@
         "tags": ["React", "Redux", "Development"],
         "img": "/images/screenshot-expensify.png",
         "url": "https://react-expensify-wanderdust.herokuapp.com/"
+      },
+      {
+        "title": "Coin Identifier",
+        "description": "An app that identifies a coin given an image and gives you a prediction",
+        "tags": ["React", "Flask", "Python", "Machine Learning"],
+        "img": "/images/screenshot-coin-app.png",
+        "url": "https://github.com/wanderdust/coin-cnn-frontend"
       }
     ]
   }
