@@ -38,20 +38,15 @@ export const Experience = ({ jobs, studies, volunteering }) => {
   );
 };
 
-Experience.defaultProps = {
-  jobs: [],
-  studies: []
-};
-
 Experience.propTypes = {
   jobs: PropTypes.arrayOf(PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object
-  ])),
+  ])).isRequired,
   studies: PropTypes.arrayOf(PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object
-  ]))
+  ])).isRequired
 };
 
 const mapStateToProps = state => ({

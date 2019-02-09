@@ -6,6 +6,7 @@ import NotFoundPage from '../components/NotFoundPage';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HeaderNavMobile from '../components/HeaderNavMobile';
+import MainPageCA from '../components/CoinApp/MainPageCA';
 
 export const history = createHistory();
 
@@ -15,6 +16,7 @@ const AppRouter = () => (
       <Header />
       <HeaderNavMobile />
       <Switch>
+        <Route path="/coin-app" component={MainPageCA} />
         <Route path="/" component={MainPage} />
         <Route component={NotFoundPage} />
       </Switch>

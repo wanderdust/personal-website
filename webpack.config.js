@@ -40,6 +40,9 @@ module.exports = (env) => {
         test: /\.js$/,
         exclude: /node_modules/
       }, {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
+      }, {
         /*
         * Convert scss into normal css and pass it as styles to javascript.
         * sourceMap: true shows where the css lives in the pre-compiled files.
