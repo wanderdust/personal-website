@@ -1,10 +1,12 @@
 import React from 'react';
+import HeaderCA from './HeaderCA';
 import SectionCA from './SectionCA';
 import UploadImage from './UploadImageCA';
 import SupportedCurrencies from './SupportedCurrenciesCA';
 
 export const MainPage = () => (
   <div>
+    <HeaderCA />
     <div className="section section--basic">
       <SectionCA component={UploadImage} />
     </div>

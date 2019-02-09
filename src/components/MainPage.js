@@ -1,6 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import HeaderNavMobile from './HeaderNavMobile';
+import Header from './Header';
+
 import Section from './Section';
 import Profile from './MainPageSections/Profile';
 import Experience from './MainPageSections/Experience';
@@ -12,6 +15,8 @@ export const MainPage = ({
   profile, experience, abilities, projects
 }) => (
   <div className="content-wrapper">
+    <Header />
+    <HeaderNavMobile />
     <div id="profile" className="section section--basic">
       <Section
         sectionTitle={profile.title}

@@ -3,9 +3,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import MainPage from '../components/MainPage';
 import NotFoundPage from '../components/NotFoundPage';
-import Header from '../components/Header';
 import Footer from '../components/Footer';
-import HeaderNavMobile from '../components/HeaderNavMobile';
 import MainPageCA from '../components/CoinApp/MainPageCA';
 
 export const history = createHistory();
@@ -13,8 +11,6 @@ export const history = createHistory();
 const AppRouter = () => (
   <Router history={history}>
     <div>
-      <Header />
-      <HeaderNavMobile />
       <Switch>
         <Route path="/coin-app" component={MainPageCA} />
         <Route path="/" component={MainPage} />

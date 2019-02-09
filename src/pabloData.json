@@ -258,7 +258,7 @@
         "description": "An app that identifies a coin given an image and gives you a prediction",
         "tags": ["React", "Flask", "Python", "Machine Learning"],
         "img": "/images/screenshot-coin-app.png",
-        "url": "https://github.com/wanderdust/coin-cnn-frontend"
+        "url": "http://www.lopezsantori.com/coin-app"
       }
     ]
   }
