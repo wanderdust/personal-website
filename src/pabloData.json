@@ -3,11 +3,11 @@
     "title": "Profile",
     "myPhoto": "/images/profile.jpg",
     "name": "Pablo",
-    "profession": "Front End Developer",
+    "profession": "Software Developer",
     "location": "Edinburgh",
     "age": "25",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "I am an allround web developer. I am a front-end developer with good knowledge of back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because it is not only faster but you can also learn from others."
+    "aboutMe": "I am an allround developer. I am a software developer with good knowledge of front-end and back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because it is not only faster but you can also learn from others."
   },
   "experience": {
     "title": "Experiences",
@@ -15,6 +15,24 @@
     "studies": {
       "title": "Education",
       "list": [
+        {
+          "title": "Machine Learning Engineer Nanodegree",
+          "duration": {
+            "from": "February 2019",
+            "to": "May 2019"
+          },
+          "location": "Udacity",
+          "description": "During this nanodegree I've learned the core machine learning concepts, including supervised and unsupervised learning."
+        },
+        {
+          "title": "PyTorch Scholarship Challenge from Facebook",
+          "duration": {
+            "from": "November 2018",
+            "to": "January 2019"
+          },
+          "location": "Udacity",
+          "description": "During this challenge I had the opportunity to learn deep learning foundations as well as learning about and building Convolutional Neural Networks and Recurrent Neural Neworks with pytorch. For the final project I built a flower classification model that identifies a flower species given an image."
+        },
         {
           "title": "Developer",
           "duration": {
@@ -47,6 +65,15 @@
     "jobs": {
       "title": "Work Experience",
       "list": [
+        {
+          "title": "Lifeguard",
+          "duration": {
+            "from": "December 2018",
+            "to": "today"
+          },
+          "location": "Wester Hailes",
+          "description": "Being part of a team of lifeguards the duties include lifeguarding, equipment handling, general housekeeping duties and the safe supervision and use of the facilities."
+        },
         {
           "title": "Chef",
           "duration": {
@@ -84,7 +111,7 @@
   },
   "abilities": {
     "title": "Abilities",
-    "subtitle": "All the skills I've gained in the past years. I've specialised in Front End but I also love to play around with other languages and technologies",
+    "subtitle": "All the skills I've gained in the past years.",
     "skills": [
       {
         "skill": "Javascript",
@@ -107,11 +134,19 @@
         "level": 5
       },
       {
-        "skill": "Full Stack",
-        "level": 5
+        "skill": "Python",
+        "level": 4
       },
       {
-        "skill": "Backbone",
+        "skill": "Pytorch",
+        "level": 4
+      },
+      {
+        "skill": "Numpy",
+        "level": 4
+      },
+      {
+        "skill": "Pandas",
         "level": 4
       },
       {
@@ -135,15 +170,7 @@
         "level": 4
       },
       {
-        "skill": "AngularJS",
-        "level": 3
-      },
-      {
         "skill": "MongoDB & Mongoose",
-        "level": 3
-      },
-      {
-        "skill": "Python",
         "level": 3
       },
       {
@@ -151,7 +178,15 @@
         "level": 3
       },
       {
+        "skill": "Flask",
+        "level": 2
+      },
+      {
         "skill": "SQL",
+        "level": 2
+      },
+      {
+        "skill": "Amazon Web Services",
         "level": 1
       },
       {
