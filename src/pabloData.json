@@ -150,6 +150,10 @@
         "level": 4
       },
       {
+        "skill": "GraphQL",
+        "level": 4
+      },
+      {
         "skill": "Webpack",
         "level": 4
       },
@@ -162,7 +166,7 @@
         "level": 4
       },
       {
-        "skill": "Mocha/Jest",
+        "skill": "Testing",
         "level": 4
       },
       {
@@ -187,7 +191,7 @@
       },
       {
         "skill": "Amazon Web Services",
-        "level": 1
+        "level": 2
       },
       {
         "skill": "PHP",
@@ -218,7 +222,7 @@
         "level": 5
       },
       {
-        "skill": "Atom",
+        "skill": "Jupyter Notebooks",
         "level": 5
       },
       {
@@ -234,20 +238,16 @@
         "level": 5
       },
       {
-        "skill": "Internet Explorer 10+",
+        "skill": "Ubuntu",
         "level": 4
       },
       {
-        "skill": "Ubuntu",
+        "skill": "Shell",
         "level": 4
       },
       {
         "skill": "MS Office",
         "level": 4
-      },
-      {
-        "skill": "Jupyter Notebook",
-        "level": 3
       },
       {
         "skill": "Studio 3T",
