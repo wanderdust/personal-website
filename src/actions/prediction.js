@@ -12,11 +12,15 @@ export const setLoadingState = () => ({
 
 export const startSetCoinPrediction = imageFile => (dispatch, getState) => {
   dispatch(setLoadingState());
-  axios.post('http://localhost:5000/api/predict/', imageFile, {
-    headers: {
-      'Content-Type': imageFile.type
+  console.log(imageFile.type)
+
+  axios.post('http://ec2-18-130-255-142.eu-west-2.compute.amazonaws.com/api/predict', imageFile,
+    {
+      headers: {
+        'Content-Type': imageFile.type
+      }
     }
-  }).then((response) => {
+  ).then((response) => {
     dispatch(setCoinPrediction(response.data));
   }).catch((error) => {
     dispatch(setCoinPrediction('Error while making a prediction'));
