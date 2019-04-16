@@ -19,10 +19,10 @@
           "title": "Machine Learning Engineer Nanodegree",
           "duration": {
             "from": "February 2019",
-            "to": "May 2019"
+            "to": "August 2019"
           },
           "location": "Udacity",
-          "description": "During this nanodegree I've learned the core machine learning concepts, including supervised and unsupervised learning."
+          "description": "With this nanodegree I've learned the core concepts of Machine learning, including Supervised, Unsupervised, Reinforcement and Deep Learning. During this course I've had the chance to complete several real-world projects to apply what I've learned using scikit-learn, keras, tensorflow and several other machine learning libraries"
         },
         {
           "title": "PyTorch Scholarship Challenge from Facebook",
@@ -31,7 +31,7 @@
             "to": "January 2019"
           },
           "location": "Udacity",
-          "description": "During this challenge I had the opportunity to learn deep learning foundations as well as learning about and building Convolutional Neural Networks and Recurrent Neural Neworks with pytorch. For the final project I built a flower classification model that identifies a flower species given an image."
+          "description": "During this challenge I had the opportunity to learn Deep Learning foundations as well as learning about and building Fully Connected Neural Nets, CNNs and LSTMs with pytorch. For the final project I built a flower classification model that identifies a flower species given an image."
         },
         {
           "title": "Developer",
@@ -66,7 +66,7 @@
       "title": "Work Experience",
       "list": [
         {
-          "title": "Lifeguard",
+          "title": "Lifeguard (part-time)",
           "duration": {
             "from": "December 2018",
             "to": "today"
@@ -75,7 +75,7 @@
           "description": "Being part of a team of lifeguards the duties include lifeguarding, equipment handling, general housekeeping duties and the safe supervision and use of the facilities."
         },
         {
-          "title": "Chef",
+          "title": "Chef (part-time)",
           "duration": {
             "from": "March 2017",
             "to": "November 2018"
@@ -84,7 +84,7 @@
           "description": "On a busy work environment I worked with a team of chefs to prepare and serve meals. Communication was critical within the team to stay efficient and deliver the food as fast as possible."
         },
         {
-          "title": "Sales Executive",
+          "title": "Sales Executive (internship)",
           "duration": {
             "from": "September 2015",
             "to": "March 2016"
@@ -187,7 +187,7 @@
       },
       {
         "skill": "SQL",
-        "level": 2
+        "level": 4
       },
       {
         "skill": "Amazon Web Services",
