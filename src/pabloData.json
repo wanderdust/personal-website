@@ -7,7 +7,7 @@
     "location": "Edinburgh",
     "age": "25",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "I am an allround developer. I am a software developer with good knowledge of front-end and back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful and efficient. I also prefer working in a team because it is not only faster but you can also learn from others."
+    "aboutMe": "I am an allround developer. I am a software developer with good knowledge of front-end and back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful, clean, and efficient. I am also a Machine Learning student as I am fascinated by all the new techniques available that provide innovative solutions thanks to the vast amount of data we have access to."
   },
   "experience": {
     "title": "Experiences",
@@ -230,14 +230,6 @@
         "level": 5
       },
       {
-        "skill": "Firefox",
-        "level": 5
-      },
-      {
-        "skill": "Chrome",
-        "level": 5
-      },
-      {
         "skill": "Ubuntu",
         "level": 4
       },
@@ -275,11 +267,11 @@
         "url": "https://www.coursesearch.net/"
       },
       {
-        "title": "Coin Finder",
-        "description": "A Convolutional Neural Network that detects coins from different countries",
-        "tags": ["Python", "Machine Learning", "Algorithms"],
+        "title": "Coin Classiffier",
+        "description": "A Convolutional Neural Network able to differentiate coins from different countries",
+        "tags": ["Python", "Machine Learning", "Algorithms", "Pytorch"],
         "img": "/images/screenshot-coin-cnn.png",
-        "url": "https://github.com/wanderdust/coin-cnn"
+        "url": "https://www.kaggle.com/wanderdust/coin-classifier"
       },
       {
         "title": "React Expensify",
@@ -291,9 +283,23 @@
       {
         "title": "Coin Identifier",
         "description": "An app that identifies a coin given an image and gives you a prediction",
-        "tags": ["React", "Flask", "Python", "Machine Learning"],
+        "tags": ["React", "Flask", "Python", "CNN", "Web Scrapping"],
         "img": "/images/screenshot-coin-app.png",
         "url": "https://github.com/wanderdust/coin-cnn-frontend"
+      },
+      {
+        "title": "Melanoma Detection",
+        "description": "A Convolutional Neural Network able to find cases of melanoma",
+        "tags": ["Python", "Keras", "CNN", "Machine Learning"],
+        "img": "/images/screenshot-melanoma.png",
+        "url": "https://www.kaggle.com/wanderdust/melanoma-detection"
+      },
+      {
+        "title": "Customer Segments",
+        "description": "Find Customer segments using unsupervised learning techniques",
+        "tags": ["Unsupervised Learning", "PCA", "Clustering", "Udacity"],
+        "img": "/images/screenshot-customer-segments.png",
+        "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/customer_segments/customer_segments.ipynb"
       }
     ]
   }
