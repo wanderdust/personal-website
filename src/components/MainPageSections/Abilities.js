@@ -23,9 +23,18 @@ export const Abilities = ({ skills, languages, tools }) => {
     <div className="abilities">
 
       <div className="sub-section">
-        <h3 className="sub-section__title">Skills</h3>
+        <h3 className="sub-section__title">Machine Learning</h3>
         <div className="abilities__skills">
           {renderCols(skills, listItems)}
+        </div>
+      </div>
+
+      <hr className="separator" />
+
+      <div className="sub-section">
+        <h3 className="sub-section__title">Front End</h3>
+        <div className="abilities__skills">
+          {renderCols(tools, listItems)}
         </div>
       </div>
 
@@ -43,14 +52,6 @@ export const Abilities = ({ skills, languages, tools }) => {
         </div>
       </div>
 
-      <hr className="separator" />
-
-      <div className="sub-section">
-        <h3 className="sub-section__title">Tools</h3>
-        <div className="abilities__skills">
-          {renderCols(tools, listItems)}
-        </div>
-      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@
     "location": "Edinburgh",
     "age": "26",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "I am an allround developer. I am a software developer with good knowledge of front-end and back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful, clean, and efficient. I am also a Machine Learning student as I am fascinated by all the new techniques available that provide innovative solutions thanks to the vast amount of data we have access to."
+    "aboutMe": "I am a passionate machine learning engineer fascinated by the opportunities created by the abundance of available data and computing power in our modern society. I am also well versed in front-end and back-end techniques."
   },
   "experience": {
     "title": "Experiences",
@@ -123,6 +123,52 @@
     "subtitle": "All the skills I've gained in the past years.",
     "skills": [
       {
+        "skill": "Python",
+        "level": 5
+      },
+      {
+        "skill": "Machine Learning techniques",
+        "level": 5
+      },
+      {
+        "skill": "Deep Learning techniques",
+        "level": 5
+      },
+      {
+        "skill": "Pytorch, Keras",
+        "level": 4
+      },
+      {
+        "skill": "Command line interface",
+        "level": 4
+      },
+      {
+        "skill": "SQL",
+        "level": 4
+      },
+      {
+        "skill": "MongoDB & Mongoose",
+        "level": 3
+      },
+      {
+        "skill": "Flask",
+        "level": 3
+      },
+      {
+        "skill": "Apache Spark",
+        "level": 3
+      },
+      {
+        "skill": "Applied Statistics",
+        "level": 3
+      },
+      {
+        "skill": "Amazon Web Services",
+        "level": 3
+      }
+    ],
+    "tools": [
+      {
         "skill": "Javascript",
         "level": 5
       },
@@ -131,39 +177,15 @@
         "level": 5
       },
       {
-        "skill": "Node.js & npm",
+        "skill": "Node.js",
         "level": 5
-      },
-      {
-        "skill": "Express",
-        "level": 5
-      },
-      {
-        "skill": "CSS/SCSS",
-        "level": 5
-      },
-      {
-        "skill": "Python",
-        "level": 4
-      },
-      {
-        "skill": "Pytorch",
-        "level": 4
-      },
-      {
-        "skill": "Numpy",
-        "level": 4
-      },
-      {
-        "skill": "Pandas",
-        "level": 4
-      },
-      {
-        "skill": "GraphQL",
-        "level": 4
       },
       {
         "skill": "Webpack",
+        "level": 4
+      },
+      {
+        "skill": "CSS/SCSS",
         "level": 4
       },
       {
@@ -175,31 +197,15 @@
         "level": 4
       },
       {
-        "skill": "Testing",
+        "skill": "Unit testing",
         "level": 4
-      },
-      {
-        "skill": "Command line interface",
-        "level": 4
-      },
-      {
-        "skill": "MongoDB & Mongoose",
-        "level": 3
       },
       {
         "skill": "Java",
         "level": 3
       },
       {
-        "skill": "Flask",
-        "level": 2
-      },
-      {
-        "skill": "SQL",
-        "level": 4
-      },
-      {
-        "skill": "Amazon Web Services",
+        "skill": "AngularJS",
         "level": 2
       },
       {
@@ -224,50 +230,19 @@
         "skill": "German",
         "level": 1
       }
-    ],
-    "tools": [
-      {
-        "skill": "Visual Studio Code",
-        "level": 5
-      },
-      {
-        "skill": "Jupyter Notebooks",
-        "level": 5
-      },
-      {
-        "skill": "Windows",
-        "level": 5
-      },
-      {
-        "skill": "Ubuntu",
-        "level": 4
-      },
-      {
-        "skill": "Shell",
-        "level": 4
-      },
-      {
-        "skill": "MS Office",
-        "level": 4
-      },
-      {
-        "skill": "Studio 3T",
-        "level": 3
-      },
-      {
-        "skill": "IntelliJ",
-        "level": 3
-      },
-      {
-        "skill": "Gimp",
-        "level": 3
-      }
     ]
   },
   "projects": {
     "title": "Project Showcase",
     "subtitle": "Some of the many projects I've put all my love and passion into!",
     "projects": [
+      {
+        "title": "Playing Space invaders with Reinforcement Learning",
+        "description": "An agent learns to play space invaders from image inputs",
+        "tags": ["Deep Q-Network, Reinforcement Learning"],
+        "img": "/images/space_invaders.gif",
+        "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/capstone_project/report.pdf"
+      },
       {
         "title": "CourseSearch",
         "description": "A search engine for available online courses",
@@ -281,6 +256,13 @@
         "tags": ["Python", "Machine Learning", "Algorithms", "Pytorch"],
         "img": "/images/screenshot-coin-cnn.png",
         "url": "https://www.kaggle.com/wanderdust/coin-classifier"
+      },
+      {
+        "title": "Deep RL Quadcopter Controller",
+        "description": "An agent learns to play space invaders from image inputs",
+        "tags": ["React", "Express", "Firebase", "Development"],
+        "img": "/images/screenshot-quadcopter.png",
+        "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/RL-Quadcopter-2/Quadcopter_Project.ipynb"
       },
       {
         "title": "React Expensify",
@@ -306,7 +288,7 @@
       {
         "title": "Customer Segments",
         "description": "Find Customer segments using unsupervised learning techniques",
-        "tags": ["Unsupervised Learning", "PCA", "Clustering", "Udacity"],
+        "tags": ["Unsupervised Learning", "PCA", "Clustering"],
         "img": "/images/screenshot-customer-segments.png",
         "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/customer_segments/customer_segments.ipynb"
       }
