@@ -5,7 +5,7 @@
     "name": "Pablo",
     "profession": "Software Developer",
     "location": "Edinburgh",
-    "age": "25",
+    "age": "26",
     "email": "pablo.lopez.santori@gmail.com",
     "aboutMe": "I am an allround developer. I am a software developer with good knowledge of front-end and back-end techniques. I like structure and order and I also stand for quality. I love to keep up with the latest technologies to keep code powerful, clean, and efficient. I am also a Machine Learning student as I am fascinated by all the new techniques available that provide innovative solutions thanks to the vast amount of data we have access to."
   },
@@ -16,13 +16,22 @@
       "title": "Education",
       "list": [
         {
+          "title": "MSc Artificial Intelligence with Speech and Multimodal Interaction",
+          "duration": {
+            "from": "September 2019",
+            "to": "August 2020"
+          },
+          "location": "Heriot Watt University",
+          "description": "This MSc imparts the understanding and skills to develop intelligent software applications, such as those involving evolutionary computation and learning, but with an emphasis on those having speech and multimodal interfaces."
+        },
+        {
           "title": "Machine Learning Engineer Nanodegree",
           "duration": {
             "from": "February 2019",
             "to": "August 2019"
           },
           "location": "Udacity",
-          "description": "With this nanodegree I've learned the core concepts of Machine learning, including Supervised, Unsupervised, Reinforcement and Deep Learning. During this course I've had the chance to complete several real-world projects to apply what I've learned using scikit-learn, keras, tensorflow and several other machine learning libraries"
+          "description": "With this nanodegree I've learned the core concepts of Machine learning, including Supervised, Unsupervised, Reinforcement and Deep Learning. During this course I've had the chance to complete several real-world projects to apply what I've learned using scikit-learn, keras, tensorflow and several other machine learning libraries. The capstone project I chose to do was a Reinforcement Learning algorithm that could play the Atari game Space Invaders."
         },
         {
           "title": "PyTorch Scholarship Challenge from Facebook",
@@ -46,7 +55,7 @@
           "title": "HND Software Development",
           "duration": {
             "from": "September 2018",
-            "to": "Today"
+            "to": "June 2019"
           },
           "location": "Edinburgh College",
           "description": "The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC and more. During my time in college I've learned the importance of OOP, web and user experience and design. "
@@ -66,16 +75,16 @@
       "title": "Work Experience",
       "list": [
         {
-          "title": "Lifeguard (part-time)",
+          "title": "Lifeguard",
           "duration": {
             "from": "December 2018",
             "to": "today"
           },
-          "location": "Wester Hailes",
+          "location": "Wester Hailes, Lochgelly High School",
           "description": "Being part of a team of lifeguards the duties include lifeguarding, equipment handling, general housekeeping duties and the safe supervision and use of the facilities."
         },
         {
-          "title": "Chef (part-time)",
+          "title": "Chef",
           "duration": {
             "from": "March 2017",
             "to": "November 2018"
@@ -84,7 +93,7 @@
           "description": "On a busy work environment I worked with a team of chefs to prepare and serve meals. Communication was critical within the team to stay efficient and deliver the food as fast as possible."
         },
         {
-          "title": "Sales Executive (internship)",
+          "title": "Sales Executive",
           "duration": {
             "from": "September 2015",
             "to": "March 2016"
