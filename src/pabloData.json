@@ -3,11 +3,11 @@
     "title": "Profile",
     "myPhoto": "/images/profile.jpg",
     "name": "Pablo",
-    "profession": "Software Developer",
+    "profession": "ML Engineer",
     "location": "Edinburgh",
     "age": "26",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "I am a passionate machine learning engineer fascinated by the opportunities created by the abundance of available data and computing power in our modern society. I am also well versed in front-end and back-end techniques."
+    "aboutMe": "Passionate Machine Learning engineer with an special interest in Deep Learning and Reinforcement Learning techniques. When I have time I also like to build my own apps using javascript."
   },
   "experience": {
     "title": "Experiences",
@@ -107,7 +107,7 @@
       "title": "Volunteering",
       "list": [
         {
-          "title": "Project Manager",
+          "title": "Project Leader",
           "duration": {
             "from": "January 2016",
             "to": "September 2016"

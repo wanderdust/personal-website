@@ -31,7 +31,7 @@ export const Header = ({ isNavbarOpen, setNavbarStatus }) => {
 
           <Link className="header-brand" to="/">
             <h2 className="header-brand__title">Pablo Lopez</h2>
-            <h4 className="header-brand__subtitle">Software Developer</h4>
+            <h4 className="header-brand__subtitle">Machine Learning Engineer</h4>
           </Link>
 
           <div className="header__nav show-for-desktop">
