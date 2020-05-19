@@ -244,18 +244,32 @@
         "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/capstone_project/report.pdf"
       },
       {
+        "title": "Coin Identifier",
+        "description": "An app that identifies a coin given an image and gives you a prediction",
+        "tags": ["React", "Flask", "MobileNetV2", "Web Scrapping"],
+        "img": "/images/screenshot-coin-app.png",
+        "url": "http://54.174.164.119/"
+      },
+      {
+        "title": "Enhancing Alana for Eldery care",
+        "description": "A voice assistant designed to assist eldery people",
+        "tags": ["LSTM", "Furhat", "RASA", "Group Project"],
+        "img": "/images/SU.png",
+        "url": "https://www.youtube.com/watch?v=v1hP3YWwvIs"
+      },
+      {
         "title": "CourseSearch",
         "description": "A search engine for available online courses",
-        "tags": ["React", "Express", "Firebase", "Development"],
+        "tags": ["React", "Express", "Firebase", "Open Source"],
         "img": "/images/screenshot-coursesearch.png",
         "url": "https://www.coursesearch.net/"
       },
       {
-        "title": "Coin Classiffier",
-        "description": "A Convolutional Neural Network able to differentiate coins from different countries",
-        "tags": ["Python", "Machine Learning", "Algorithms", "Pytorch"],
-        "img": "/images/screenshot-coin-cnn.png",
-        "url": "https://www.kaggle.com/wanderdust/coin-classifier"
+        "title": "Melanoma Detection",
+        "description": "A Convolutional Neural Network able to find cases of melanoma",
+        "tags": ["Keras", "Augmentation", "Machine Learning"],
+        "img": "/images/screenshot-melanoma.png",
+        "url": "https://www.kaggle.com/wanderdust/melanoma-detection"
       },
       {
         "title": "Deep RL Quadcopter Controller",
@@ -270,20 +284,6 @@
         "tags": ["React", "Redux", "Development"],
         "img": "/images/screenshot-expensify.png",
         "url": "https://react-expensify-wanderdust.herokuapp.com/"
-      },
-      {
-        "title": "Coin Identifier",
-        "description": "An app that identifies a coin given an image and gives you a prediction",
-        "tags": ["React", "Flask", "Python", "CNN", "Web Scrapping"],
-        "img": "/images/screenshot-coin-app.png",
-        "url": "https://github.com/wanderdust/coin-cnn-frontend"
-      },
-      {
-        "title": "Melanoma Detection",
-        "description": "A Convolutional Neural Network able to find cases of melanoma",
-        "tags": ["Python", "Keras", "CNN", "Machine Learning"],
-        "img": "/images/screenshot-melanoma.png",
-        "url": "https://www.kaggle.com/wanderdust/melanoma-detection"
       },
       {
         "title": "Customer Segments",
