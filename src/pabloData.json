@@ -22,7 +22,7 @@
             "to": "August 2020"
           },
           "location": "Heriot Watt University",
-          "description": "This MSc imparts the understanding and skills to develop intelligent software applications, such as those involving evolutionary computation and learning, but with an emphasis on those having speech and multimodal interfaces."
+          "description": "In this MSc program, I've learned AI foundations as well as an in-depth study of how conversational agents work. Through applied machine learning and applied statistics, I've broadened my knowledge of how to work with data furthermore learning best techniques for prediction and classification. Thanks to the Datalab program I was able to do my thesis as an industry placement in UserTesting."
         },
         {
           "title": "Machine Learning Engineer Nanodegree",
@@ -143,10 +143,6 @@
         "level": 4
       },
       {
-        "skill": "SQL",
-        "level": 4
-      },
-      {
         "skill": "MongoDB & Mongoose",
         "level": 3
       },
@@ -155,16 +151,20 @@
         "level": 3
       },
       {
-        "skill": "Apache Spark",
-        "level": 3
-      },
-      {
         "skill": "Applied Statistics",
         "level": 3
       },
       {
+        "skill": "SQL",
+        "level": 2
+      },
+      {
         "skill": "Amazon Web Services",
-        "level": 3
+        "level": 2
+      },
+      {
+        "skill": "Apache Spark",
+        "level": 1
       }
     ],
     "tools": [
@@ -189,10 +189,6 @@
         "level": 4
       },
       {
-        "skill": "Gulp & Grunt",
-        "level": 4
-      },
-      {
         "skill": "Git & Github",
         "level": 4
       },
@@ -201,8 +197,16 @@
         "level": 4
       },
       {
+        "skill": "Docker",
+        "level": 4
+      },
+      {
         "skill": "Java",
         "level": 3
+      },
+      {
+        "skill": "Gulp & Grunt",
+        "level": 2
       },
       {
         "skill": "AngularJS",
@@ -210,7 +214,7 @@
       },
       {
         "skill": "PHP",
-        "level": 1
+        "level": 2
       }
     ],
     "languages": [
