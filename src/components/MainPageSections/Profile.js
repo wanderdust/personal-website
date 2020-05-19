@@ -21,10 +21,6 @@ export const Profile = ({ profile }) => (
         <span className="profile__details__header">Location:</span>
         {` ${profile.location}`}
       </p>
-      <p>
-        <span className="profile__details__header">Age:</span>
-        {` ${profile.age}`}
-      </p>
     </div>
   </div>
 );

@@ -2,10 +2,9 @@
   "profile": {
     "title": "Profile",
     "myPhoto": "/images/profile.jpg",
-    "name": "Pablo",
+    "name": "Pablo López",
     "profession": "ML Engineer",
     "location": "Edinburgh",
-    "age": "26",
     "email": "pablo.lopez.santori@gmail.com",
     "aboutMe": "Passionate Machine Learning engineer with an special interest in Deep Learning and Reinforcement Learning techniques. When I have time I also like to build my own apps using javascript."
   },

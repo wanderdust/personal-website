@@ -21,7 +21,7 @@ exports[`should render header correctly 1`] = `
         <h4
           className="header-brand__subtitle"
         >
-          Software Developer
+          Machine Learning Engineer
         </h4>
       </Link>
       <div
