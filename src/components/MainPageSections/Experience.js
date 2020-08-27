@@ -11,18 +11,18 @@ export const Experience = ({ jobs, studies, volunteering }) => {
   return (
     <div>
       <div className="sub-section">
-        <h3 className="sub-section__title">Education</h3>
-        <div>
-          {listItems(studies)}
-        </div>
-      </div>
-
-      <hr className="separator" />
-
-      <div className="sub-section">
         <h3 className="sub-section__title">Work Experience</h3>
         <div>
           {listItems(jobs)}
+        </div>
+      </div>
+      
+      <hr className="separator" />
+
+      <div className="sub-section">
+        <h3 className="sub-section__title">Education</h3>
+        <div>
+          {listItems(studies)}
         </div>
       </div>
 

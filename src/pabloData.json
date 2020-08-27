@@ -21,7 +21,7 @@
             "to": "August 2020"
           },
           "location": "Heriot Watt University",
-          "description": "In this MSc program, I've learned AI foundations as well as an in-depth study of how conversational agents work. Through applied machine learning and applied statistics, I've broadened my knowledge of how to work with data furthermore learning best techniques for prediction and classification. Thanks to the Datalab program I was able to do my thesis as an industry placement in UserTesting."
+          "description": "Learned AI foundations, data mining and machine learning techniques. I also used applied statistics to solve business problems. I worked in teams to complete projects including using swarm algorithms (PSO) to optimise the parameters of a neural network and building a conversational agent to assist older adults. Finally, I completed my thesis as part of an industrial placement in UserTesting"
         },
         {
           "title": "Machine Learning Engineer Nanodegree",
@@ -74,31 +74,13 @@
       "title": "Work Experience",
       "list": [
         {
-          "title": "Lifeguard",
+          "title": "Data Scientist",
           "duration": {
-            "from": "December 2018",
-            "to": "today"
+            "from": "June 2020",
+            "to": "August 2020"
           },
-          "location": "Wester Hailes, Lochgelly High School",
-          "description": "Being part of a team of lifeguards the duties include lifeguarding, equipment handling, general housekeeping duties and the safe supervision and use of the facilities."
-        },
-        {
-          "title": "Chef",
-          "duration": {
-            "from": "March 2017",
-            "to": "November 2018"
-          },
-          "location": "The Papermill",
-          "description": "On a busy work environment I worked with a team of chefs to prepare and serve meals. Communication was critical within the team to stay efficient and deliver the food as fast as possible."
-        },
-        {
-          "title": "Sales Executive",
-          "duration": {
-            "from": "September 2015",
-            "to": "March 2016"
-          },
-          "location": "Mygon",
-          "description": "In a small team I helped with the development of the spanish branch of the company. My tasks involved client tracking and sales. In this position I developed my understanding of a startup company as well improving my communication skills."
+          "location": "UserTesting",
+          "description": "Used NLP techniques to build a model to detect participants who answer screener questions inconsistently. I built a web application for the model to be used with an intuitive interface to help the Quality Assurance team detect fraudulent participants.Finally, I communicated with the Quality Assurance and Data Science teams to meet the model requirements."
         }
       ]
     },
@@ -142,20 +124,20 @@
         "level": 4
       },
       {
-        "skill": "MongoDB & Mongoose",
+        "skill": "NLP",
         "level": 3
       },
       {
-        "skill": "Flask",
+        "skill": "SQL",
+        "level": 3
+      },
+      {
+        "skill": "MongoDB & Mongoose",
         "level": 3
       },
       {
         "skill": "Applied Statistics",
         "level": 3
-      },
-      {
-        "skill": "SQL",
-        "level": 2
       },
       {
         "skill": "Amazon Web Services",
@@ -180,7 +162,7 @@
         "level": 5
       },
       {
-        "skill": "Webpack",
+        "skill": "Flask",
         "level": 4
       },
       {
@@ -196,8 +178,12 @@
         "level": 4
       },
       {
+        "skill": "Webpack",
+        "level": 3
+      },
+      {
         "skill": "Docker",
-        "level": 4
+        "level": 3
       },
       {
         "skill": "Java",
@@ -209,10 +195,6 @@
       },
       {
         "skill": "AngularJS",
-        "level": 2
-      },
-      {
-        "skill": "PHP",
         "level": 2
       }
     ],

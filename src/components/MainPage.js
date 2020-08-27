@@ -47,7 +47,7 @@ export const MainPage = ({
     <div id="contact" className="section section--basic">
       <Section
         sectionTitle="Get In Touch"
-        sectionSubTitle="Want to hire me? I know I would! Get in touch!"
+        // sectionSubTitle="Get in touch"
         component={Contact}
       />
       <div className="section-filter" />
