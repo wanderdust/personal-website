@@ -3,19 +3,19 @@
     "title": "Profile",
     "myPhoto": "/images/profile.jpg",
     "name": "Pablo López",
-    "profession": "ML Engineer",
+    "profession": "Machine Learning Engineer",
     "location": "Edinburgh",
     "email": "pablo.lopez.santori@gmail.com",
     "aboutMe": "Passionate Machine Learning engineer with an special interest in Deep Learning and Reinforcement Learning techniques. When I have time I also like to build my own apps using javascript."
   },
   "experience": {
-    "title": "Experiences",
+    "title": "Education & Experience",
     "subtitle": "How did I get to where I am today?",
     "studies": {
       "title": "Education",
       "list": [
         {
-          "title": "MSc Artificial Intelligence with Speech and Multimodal Interaction",
+          "title": "MSc Artificial Intelligence with Speech and Multimodal Interaction, Graduated with Distinction",
           "duration": {
             "from": "September 2019",
             "to": "August 2020"
@@ -116,6 +116,10 @@
         "level": 5
       },
       {
+        "skill": "Computer Vision",
+        "level": 4
+      },
+      {
         "skill": "Pytorch, Keras",
         "level": 4
       },
@@ -137,6 +141,10 @@
       },
       {
         "skill": "Applied Statistics",
+        "level": 3
+      },
+      {
+        "skill": "Neo4J",
         "level": 3
       },
       {
