@@ -227,7 +227,7 @@
   },
   "projects": {
     "title": "Project Showcase",
-    "subtitle": "Some of the many projects I've put all my love and passion into!",
+    "subtitle": "Some of the many projects I've worked on!",
     "projects": [
       {
         "title": "Playing Space invaders with Reinforcement Learning",
