@@ -4,9 +4,9 @@
     "myPhoto": "/images/profile.jpg",
     "name": "Pablo López",
     "profession": "Machine Learning Engineer",
-    "location": "Edinburgh",
+    "location": "Glasgow",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "Passionate Machine Learning engineer with an special interest in Deep Learning and Reinforcement Learning techniques. When I have time I also like to build my own apps using javascript."
+    "aboutMe": "Passionate Machine Learning Engineer with an special interest in Computer Vision and NLP. When I have time, I also enjoy developing web apps using modern front end frameworks."
   },
   "experience": {
     "title": "Education & Experience",
@@ -74,6 +74,15 @@
       "title": "Work Experience",
       "list": [
         {
+          "title": "Machine Learning Engineer",
+          "duration": {
+            "from": "November 2020",
+            "to": "Today"
+          },
+          "location": "Bird.i",
+          "description": "In this role I use machine learning to solve business problems. I also help to maintain and develop the current Machine Learning Pipeline."
+        },
+        {
           "title": "Data Scientist",
           "duration": {
             "from": "June 2020",
@@ -100,7 +109,7 @@
     }
   },
   "abilities": {
-    "title": "Abilities",
+    "title": "Skills",
     "subtitle": "All the skills I've gained in the past years.",
     "skills": [
       {
@@ -112,11 +121,15 @@
         "level": 5
       },
       {
-        "skill": "Deep Learning techniques",
-        "level": 5
+        "skill": "AWS for ML",
+        "level": 4
       },
       {
         "skill": "Computer Vision",
+        "level": 4
+      },
+      {
+        "skill": "NLP",
         "level": 4
       },
       {
@@ -124,19 +137,15 @@
         "level": 4
       },
       {
-        "skill": "Command line interface",
+        "skill": "MongoDB",
         "level": 4
       },
       {
-        "skill": "NLP",
+        "skill": "Docker",
         "level": 3
       },
       {
         "skill": "SQL",
-        "level": 3
-      },
-      {
-        "skill": "MongoDB & Mongoose",
         "level": 3
       },
       {
@@ -146,10 +155,6 @@
       {
         "skill": "Neo4J",
         "level": 3
-      },
-      {
-        "skill": "Amazon Web Services",
-        "level": 2
       },
       {
         "skill": "Apache Spark",
@@ -168,6 +173,10 @@
       {
         "skill": "Node.js",
         "level": 5
+      },
+      {
+        "skill": "d3.js",
+        "level": 4
       },
       {
         "skill": "Flask",
@@ -190,16 +199,8 @@
         "level": 3
       },
       {
-        "skill": "Docker",
-        "level": 3
-      },
-      {
         "skill": "Java",
         "level": 3
-      },
-      {
-        "skill": "Gulp & Grunt",
-        "level": 2
       },
       {
         "skill": "AngularJS",
@@ -263,27 +264,6 @@
         "tags": ["Keras", "Augmentation", "Machine Learning"],
         "img": "/images/screenshot-melanoma.png",
         "url": "https://www.kaggle.com/wanderdust/melanoma-detection"
-      },
-      {
-        "title": "Deep RL Quadcopter Controller",
-        "description": "An agent learns to play space invaders from image inputs",
-        "tags": ["React", "Express", "Firebase", "Development"],
-        "img": "/images/screenshot-quadcopter.png",
-        "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/RL-Quadcopter-2/Quadcopter_Project.ipynb"
-      },
-      {
-        "title": "React Expensify",
-        "description": "A simple app to keep track of your expenses.",
-        "tags": ["React", "Redux", "Development"],
-        "img": "/images/screenshot-expensify.png",
-        "url": "https://react-expensify-wanderdust.herokuapp.com/"
-      },
-      {
-        "title": "Customer Segments",
-        "description": "Find Customer segments using unsupervised learning techniques",
-        "tags": ["Unsupervised Learning", "PCA", "Clustering"],
-        "img": "/images/screenshot-customer-segments.png",
-        "url": "https://github.com/wanderdust/ML_nanodegree_udacity/blob/master/projects/customer_segments/customer_segments.ipynb"
       }
     ]
   }
