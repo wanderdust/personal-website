@@ -6,7 +6,7 @@
     "profession": "Machine Learning Engineer",
     "location": "Glasgow",
     "email": "pablo.lopez.santori@gmail.com",
-    "aboutMe": "Passionate Machine Learning Engineer with an special interest in Computer Vision and NLP. When I have time, I also enjoy developing web apps using modern front end frameworks."
+    "aboutMe": "I am a passionate Machine Learning Engineer with a particular interest in developing MLOps pipelines to deliver models at large scale. When I have time, I also enjoy developing web apps using modern front end frameworks. I am also an avid reader of fiction and fantasy books!"
   },
   "experience": {
     "title": "Education & Experience",
@@ -79,7 +79,7 @@
             "from": "November 2020",
             "to": "Today"
           },
-          "location": "Bird.i",
+          "location": "Zonda Satellite",
           "description": "Built an end-to-end MLOps pipeline to support deploying multiple models for a different projects. I also researched trained and deployed multiple models to production for a unique problem space. Finally, I continously pushed to improve and refactor the existing codebase to use best engineering practices."
         },
         {
@@ -103,7 +103,7 @@
             "to": "September 2016"
           },
           "location": "AIPC Pandora",
-          "description": "Participant and organizer of the Wanderdust team in the Mongol Rally: the longest charity rally in the world. This project was backed up by 7 sponsors and 1,040€ were raised for the NGO AIPC Pandora and their education grants. Blog: wanderdustproject.com"
+          "description": "Organised and participated in the Mongol Rally: the longest charity rally in the world. We managed to get funding from 7 different sponsors and raised £1,000 for the charity AIPC Pandora. Blog: https://www.facebook.com/wanderdustproject"
         }
       ]
     }
