@@ -80,7 +80,7 @@
             "to": "Today"
           },
           "location": "Bird.i",
-          "description": "In this role I use machine learning to solve business problems. I also help to maintain and develop the current Machine Learning Pipeline."
+          "description": "Built an end-to-end MLOps pipeline to support deploying multiple models for a different projects. I also researched trained and deployed multiple models to production for a unique problem space. Finally, I continously pushed to improve and refactor the existing codebase to use best engineering practices."
         },
         {
           "title": "Data Scientist",
@@ -89,7 +89,7 @@
             "to": "August 2020"
           },
           "location": "UserTesting",
-          "description": "Used NLP techniques to build a model to detect participants who answer screener questions inconsistently. I built a web application for the model to be used with an intuitive interface to help the Quality Assurance team detect fraudulent participants.Finally, I communicated with the Quality Assurance and Data Science teams to meet the model requirements."
+          "description": "Developed an NLP model to detect participants who answered screener questions inconsistently. Built a web inteface for the model to enable the QA team to detect fraudulent users."
         }
       ]
     },
@@ -113,15 +113,43 @@
     "subtitle": "All the skills I've gained in the past years.",
     "skills": [
       {
-        "skill": "Python",
+        "skill": "Python & OOP",
         "level": 5
       },
       {
-        "skill": "Machine Learning techniques",
+        "skill": "Machine Learning",
         "level": 5
       },
       {
-        "skill": "AWS for ML",
+        "skill": "MLOps",
+        "level": 5
+      },
+      {
+        "skill": "AWS",
+        "level": 5
+      },
+      {
+        "skill": "Docker",
+        "level": 5
+      },
+      {
+        "skill": "CI/CD",
+        "level": 5
+      },
+      {
+        "skill": "IaC",
+        "level": 5
+      },
+      {
+        "skill": "Pytorch, Keras",
+        "level": 5
+      },
+      {
+        "skill": "Sklearn",
+        "level": 5
+      },
+      {
+        "skill": "Data Science",
         "level": 4
       },
       {
@@ -133,16 +161,8 @@
         "level": 4
       },
       {
-        "skill": "Pytorch, Keras",
+        "skill": "NoSQL (MongoDB)",
         "level": 4
-      },
-      {
-        "skill": "MongoDB",
-        "level": 4
-      },
-      {
-        "skill": "Docker",
-        "level": 3
       },
       {
         "skill": "SQL",
@@ -154,11 +174,11 @@
       },
       {
         "skill": "Neo4J",
-        "level": 3
+        "level": 2
       },
       {
-        "skill": "Apache Spark",
-        "level": 1
+        "skill": "pySpark",
+        "level": 2
       }
     ],
     "tools": [
@@ -175,11 +195,15 @@
         "level": 5
       },
       {
+        "skill": "Dash (plotly)",
+        "level": 4
+      },
+      {
         "skill": "d3.js",
         "level": 4
       },
       {
-        "skill": "Flask",
+        "skill": "FastAPI, Flask",
         "level": 4
       },
       {
@@ -187,7 +211,7 @@
         "level": 4
       },
       {
-        "skill": "Git & Github",
+        "skill": "Git",
         "level": 4
       },
       {
@@ -195,16 +219,8 @@
         "level": 4
       },
       {
-        "skill": "Webpack",
-        "level": 3
-      },
-      {
         "skill": "Java",
         "level": 3
-      },
-      {
-        "skill": "AngularJS",
-        "level": 2
       }
     ],
     "languages": [
@@ -221,7 +237,7 @@
         "level": 2
       },
       {
-        "skill": "German",
+        "skill": "German (Nearly forgotten by now!)",
         "level": 1
       }
     ]
@@ -242,7 +258,7 @@
         "description": "An app that identifies a coin given an image and gives you a prediction",
         "tags": ["React", "Flask", "MobileNetV2", "Web Scrapping"],
         "img": "/images/screenshot-coin-app.png",
-        "url": "http://54.174.164.119/"
+        "url": "https://github.com/wanderdust/coin-cnn-webapp"
       },
       {
         "title": "Enhancing Alana for Eldery care",
